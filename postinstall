@@ -1,0 +1,13 @@
+#!/bin/sh
+
+WORLD_FOLDER=~/data/worlds
+
+echo server-port=$PORT_MCSERVER >> ~/minecraft/server.properties
+
+chmod +x ~/startserver
+chmod +x ~/run
+
+mkdir -p "$WORLD_FOLDER/world"
+ln -s "$WORLD_FOLDER/world" ~/minecraft/world
+
+#crontab ~/crontab

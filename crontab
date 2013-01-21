@@ -1,0 +1,1 @@
+0 * * * * ~/world_backup_git >> ~/world_backup_git.log 2>&1
