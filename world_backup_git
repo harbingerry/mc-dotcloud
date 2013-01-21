@@ -1,0 +1,13 @@
+#!/bin/bash
+
+worlds=~/data/worlds
+
+for dir in `ls "$worlds/"`
+do
+	if [ -d "$worlds/$dir" ]; then
+		cd "$worlds/$dir"
+		git add .
+		git commit -m "`date`"
+		git push -u origin master
+	fi
+done

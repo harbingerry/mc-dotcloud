@@ -1,0 +1,6 @@
+#!/bin/bash
+if ps aux | grep -v grep | grep java; then
+        echo "Error"
+else
+        exec /usr/bin/screen -LAmdS MCServer ./startmcserver
+fi
