@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd ~/minecraft
-exec ~/java/jre/bin/java -Xmx512M -Xms64M -jar ~/minecraft/minecraft_server_authmod.jar nogui
+exec ~/java/jre/bin/java -Xmx512M -Xms256M -Xincgc -jar ~/minecraft/minecraft_server_authmod.jar nogui
