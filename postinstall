@@ -2,7 +2,7 @@
 
 WORLD_FOLDER=~/data/worlds
 
-echo server-port=$PORT_MCSERVER >> ~/minecraft/server.properties
+echo "server-port=$PORT_MCSERVER" >> ~/minecraft/server.properties
 
 chmod +x ~/startserver
 chmod +x ~/run
