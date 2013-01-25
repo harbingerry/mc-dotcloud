@@ -10,7 +10,7 @@ else
   mv minecraft ~
   cp crontab ~
   cp run ~
-  cp startmcserver ~
+  cp startserver ~
   cp world_backup_git ~
   
   mkdir -p $JAVA_HOME
