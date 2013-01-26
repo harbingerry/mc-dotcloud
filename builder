@@ -8,10 +8,10 @@ if [ -d $MC_HOME ]; then
   echo "Minecraft already setup"
 else
   mv minecraft ~
-  cp crontab ~
-  cp run ~
-  cp startserver ~
-  cp world_backup_git ~
+  mv crontab ~
+  mv run ~
+  mv startserver ~
+  mv world_backup_git ~
   
   mkdir -p $JAVA_HOME
   cd $JAVA_HOME
