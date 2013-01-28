@@ -8,7 +8,7 @@ echo server-port=$PORT_MCSERVER >> $SERVER_PROPS
 echo motd=Welcome to Minecraft! >> $SERVER_PROPS
 echo max-players=5 >> $SERVER_PROPS
 echo enable-command-block=true >> $SERVER_PROPS
-echo view-distance=8 >> $SERVER_PROPS
+echo view-distance=5 >> $SERVER_PROPS
 
 mkdir -p "$WORLD_FOLDER/world"
 ln -s "$WORLD_FOLDER/world" ~/minecraft/world
